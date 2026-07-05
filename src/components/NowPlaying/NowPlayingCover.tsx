@@ -39,7 +39,7 @@ const NowPlayingCover: FunctionComponent<NowPlayingCoverProps> = (props) => {
                     <ChevronUp size={24} />
                 )}
             </div>
-            <Image alt="NowPlaying" className="w-full h-full object-cover left-0 top-0 absolute" priority src={media.img} layout='fill' />
+            <Image alt="NowPlaying" className="w-full h-full object-cover left-0 top-0 absolute" priority src={media.img} fill />
         </div>
     )
 }
